@@ -16,7 +16,7 @@
     </header>
 
     <main>
-        <div class="page-title">Pedido #12345</div>
+        <div class="page-title">Pedido # <span id="order-number">12345</span></div>
         <div class="content">
             <section>
                 <table>
@@ -41,7 +41,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>R$ 650,00</td>
+                            <td class="preco">R$ 650,00</td>
                             <td>
                                 <div class="quantity">
                                     <button>
@@ -53,7 +53,7 @@
                                     </button>
                                 </div>
                             </td>
-                            <td>R$ 1.300,00</td>
+                            <td class="total">R$ 1.300,00</td>
                             <td>
                                 <button class="remove">
                                     <i class="bx bx-x"></i>
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>R$ 500,00</td>
+                            <td class="preco">R$ 500,00</td>
                             <td>
                                 <div class="quantity">
                                     <button><i class="bx bx-minus"></i></button>
@@ -80,12 +80,11 @@
                                     <button><i class="bx bx-plus"></i></button>
                                 </div>
                             </td>
-                            <td>R$ 1.000,00</td>
+                            <td class="total">R$ 1.000,00</td>
                             <td>
                                 <button class="remove"><i class="bx bx-x"></i></button>
                             </td>
                         </tr>
-                        <tr>
 
                         <tr>
                             <td>
@@ -97,7 +96,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>R$ 350,00</td>
+                            <td class="preco">R$ 350,00</td>
                             <td>
                                 <div class="quantity">
                                     <button><i class="bx bx-minus"></i></button>
@@ -105,7 +104,7 @@
                                     <button><i class="bx bx-plus"></i></button>
                                 </div>
                             </td>
-                            <td>R$ 700,00</td>
+                            <td class="total">R$ 700,00</td>
                             <td>
                                 <button class="remove"><i class="bx bx-x"></i></button>
                             </td>
@@ -118,10 +117,10 @@
                 <div class="box">
                     <header>Resumo da compra</header>
                     <div class="info">
-                        <div><span>Sub-total</span><span>R$ 418,00</span></div>
+                        <div><span>Sub-total</span><span class="sub-order">R$ 418,00</span></div>
                         <div><span>Frete</span><span>Gratuito</span></div>
                         <div>
-                            <button>
+                            <button class="discount">
                                 Adicionar cupom de desconto
                                 <i class="bx bx-right-arrow-alt"></i>
                             </button>
@@ -129,15 +128,17 @@
                     </div>
                     <footer>
                         <span>Total</span>
-                        <span>R$ 418,00</span>
+                        <span class="total-order">R$ 418,00</span>
                     </footer>
                 </div>
-                <button>Finalizar Compra</button>
+                <button id="order-finalize">Finalizar Compra</button>
             </aside>
 
         </div>
     </main>
+    <footer>
 
+    </footer>
 </body>
 <script src="js/index.js"></script>
 
