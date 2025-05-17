@@ -30,3 +30,7 @@ No curso, a construção se concentra apenas na estrutura e no estilo. Aqui, bus
 1. Clone o repositório:
    ```bash
    git clone https://github.com/ssantiago121/shop-cart.git
+
+📝 Créditos
+Projeto baseado no conteúdo do curso Fundamentos do HTML e CSS do balta.io
+Interações em JavaScript desenvolvidas por [Fábio Santiago](https://github.com/ssantiago121).
